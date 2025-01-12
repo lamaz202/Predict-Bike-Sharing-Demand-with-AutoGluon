@@ -1,16 +1,14 @@
-Overview
 
-In this project, students will apply the knowledge and methods they learned in the Introduction to Machine Learning course to compete in a Kaggle competition using the AutoGluon library.
+# Predict Bike Sharing Demand with AutoGluon
 
-Students will create a Kaggle account if they do not already have one, download the Bike Sharing Demand dataset, and train a model using AutoGluon. They will then submit their initial results for a ranking.
+This project explores leveraging AutoGluon, an open-source AutoML library from AWS, to forecast bike-sharing demand using the Kaggle Bike Sharing Demand dataset. The primary goal is to utilize AutoGluon's Tabular Prediction capabilities to quickly build accurate baseline models while minimizing the challenges typically associated with tasks such as data cleaning, feature engineering, hyperparameter tuning, and model selection.
 
-After they complete the first workflow, they will iterate on the process by trying to improve their score. This will be accomplished by adding more features to the dataset and tuning some of the hyperparameters available with AutoGluon.
 
-Finally they will submit all their work and write a report detailing which methods provided the best score improvement and why. A template of the report can be found here.
 
-To meet specifications, the project will require at least these files:
 
-Jupyter notebook with code run to completion
-HTML export of the jupyter notebbook
-Markdown or PDF file of the report
-Images or additional files needed to make your notebook or report complete can be also added
+## Approach
+
+The dataset was downloaded and analyzed to understand its features and characteristics. A baseline model was trained using AutoGluon’s Tabular Prediction with default settings, and initial predictions were submitted to Kaggle for ranking.
+Comprehensive exploratory data analysis (EDA) was performed to assess the impact of dataset modifications on model performance, followed by feature engineering to enhance predictive accuracy. These enhancements were implemented using AutoGluon’s automated default configurations.
+After the initial analysis and feature adjustments, multiple model iterations were conducted to refine performance. During these iterations, the feature-engineered dataset was used to train the model, with select hyperparameters fine-tuned to achieve further improvements.
+
